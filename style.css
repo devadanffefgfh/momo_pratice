@@ -44,6 +44,41 @@ button{
 .second a:nth-child(7){
     border-right: 1px solid black ;
 }
+.right_sticky_frame{
+    width: fit-content;
+    /* background-color: aqua; */
+    position: fixed;
+    right: 15px;
+    z-index: 3;
+    bottom:300px ;
+    text-align: center;
+}
+.right_sticky_frame a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.right_sticky_frame .repeat,.right_sticky_frame .checkout{
+    width: 50px;
+    height: 9px;
+    
+    background-color: rgb(225, 124, 141);
+    padding: 10px;
+    margin: auto;
+}
+.right_sticky_frame .shopping_car{
+    background-color: #b9b3b3;
+    padding: 5px;
+    margin: 2px;
+}
+.right_sticky_frame .mo_coin a{
+    font-size: 21px;
+}
+.right_sticky_frame .mo_coin{
+    width: 75px;
+    background-color: red;
+    margin: 2px;
+}
 .top{
     width: 100%;
     position: sticky;  
